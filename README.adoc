@@ -10,7 +10,7 @@ This repository attempts to solve this problem by making the iterm2 configuratio
 
 ## Usage
 
-Configure Iterm2 to save the plist file to a location you desire, see documentation on how to do that here
+Configure Iterm2 to save the plist file to a location you desire, see documentation on how to do that https://stackoverflow.com/a/23356086[here]
 
 run the go binary on the file and it'll overide in the UI the config file as a json format
 
@@ -18,3 +18,4 @@ run the go binary on the file and it'll overide in the UI the config file as a j
 - [ ] - allow setting the Object we want, and merging the current one with the new one
 - [ ] - the NewBookmarks possiby is configurable via 'iterm2', find a way to make it more constant
 - [ ] - override the plist file with the correct values
+- [ ] - decide if `Dynamic Profiles` is the better way to go https://iterm2.com/documentation-dynamic-profiles.html[see here]
