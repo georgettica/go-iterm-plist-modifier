@@ -1,0 +1,20 @@
+# iterm-plist-modifier
+
+## Purpose
+
+as a DevOps Engineer, I wanted that each of my configuration steps will be automated as much as possible
+
+one step I found that was not solved fully, is the Iterm2 configuration.
+
+This repository attempts to solve this problem by making the iterm2 configuration as simple as `ITERM_PLIST_MODIFIER_LOCATION=<PATH> go run main.go` on the exposed plist file iterm2 provides and get all the best practices you want
+
+## Usage
+
+Configure Iterm2 to save the plist file to a location you desire, see documentation on how to do that here
+
+run the go binary on the file and it'll overide in the UI the config file as a json format
+
+## Future Development Ideas:
+- [ ] - allow setting the Object we want, and merging the current one with the new one
+- [ ] - the NewBookmarks possiby is configurable via 'iterm2', find a way to make it more constant
+- [ ] - override the plist file with the correct values
